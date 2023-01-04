@@ -48,6 +48,6 @@ This folder contains the crustal thickness rasters which are only required for t
   
 Clennett, E. J., Holt, A. F., Tetley, M. G., Becker, T. W., & Faccenna, C. (2023). Assessing plate reconstruction models using plate driving forces.  
   
-Müller, R. D., Seton, M., Zahirovic, S., Williams, S. E., Matthews, K. J., Wright, N. M., Shephard, G. E., Maloney, K. T., Barnett-Moore, N., Hosseinpour, M., Bower, D. J., & Cannon, J. (2016). Ocean Basin Evolution and Global-Scale Plate Reorganization Events Since Pangea Breakup. *Annual Review of Earth and Planetary Sciences*, 44(1), 107–138. https://doi.org/10.1146/annurev-earth-060115-012211  
+Müller, R. D., Seton, M., Zahirovic, S., Williams, S. E., Matthews, K. J., Wright, N. M., et al. (2016). Ocean Basin Evolution and Global-Scale Plate Reorganization Events Since Pangea Breakup. *Annual Review of Earth and Planetary Sciences*, 44(1), 107–138. https://doi.org/10.1146/annurev-earth-060115-012211  
   
 Williams, S., Wright, N. M., Cannon, J., Flament, N., & Müller, R. D. (2021). Reconstructing seafloor age distributions in lost ocean basins. *Geoscience Frontiers*, 12(2), 769–780. https://doi.org/10.1016/j.gsf.2020.06.004  
