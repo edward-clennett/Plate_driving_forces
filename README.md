@@ -42,7 +42,7 @@ This folder contains the seafloor age grids which are required for the plate dri
 
 #### Crustal_thickness  
   
-This folder contains the crustal thickness rasters which are only required for the plate driving forces calculation when the option to calculate continental GPE tractions is set to true. The crustal thickness rasters were created by loading in a present-day crustal thickness raster into GPlates and "cookie cutting" it to the continents shapefile. Information on cookie cutting can be found in the GPlates tutorials [here](https://docs.google.com/document/d/1BohvVbw0n3w8EW7asEIo72dCyRHY_aaC4BTP9Y8zSig/pub#id.nl8kz7s4totv>).  
+This folder contains the crustal thickness rasters which are only required for the plate driving forces calculation when the option to calculate continental GPE tractions is set to true. Crustal thickness rasters can be created by loading in a present-day crustal thickness raster into GPlates and "cookie cutting" it to the continents shapefile. Information on cookie cutting can be found in the GPlates tutorials [here](https://docs.google.com/document/d/1BohvVbw0n3w8EW7asEIo72dCyRHY_aaC4BTP9Y8zSig/pub#id.nl8kz7s4totv>).  
 
 #### References  
   
