@@ -18,7 +18,7 @@ def computeForces(times, features_name, rotation_model, oceanic_ages, crustal_th
     delta_time = 1.0;
     anch_ID = 0;
     segment_length = 250
-    mech=set_mech_params(options) # modify this class (in functions_main.py) to modify mechanical parameters
+    mech=set_mech_params() # modify this class (in functions_main.py) to modify mechanical parameters
     # ---------------------------------------
 
     for reconstruction_t in times: # all times specified
