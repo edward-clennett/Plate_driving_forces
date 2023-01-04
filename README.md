@@ -8,7 +8,7 @@ This folder contains a number of files:
 This is a jupyter notebook with code that loads the appropriate files and run the plate driving forces caluclation, as well as performs analysis tasks. The plate driving forces calculation calls two python scripts, **compute_torques.py** and **functions_main.py**. The following python packages are required to run these scripts:   
 #### environment.yml
 
-This is a conda environment that includes the following packages, compatible with python 3.8. For more information on anaconda, see https://www.anaconda.com/.  
+This is a conda environment that includes the following packages, compatible with python 3.8. For more information on anaconda, see the [conda user guide](https://conda.io/projects/conda/en/latest/user-guide/index.html).  
 - numpy  
 - netCDF4  
 - gpxpy  
