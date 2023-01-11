@@ -21,6 +21,8 @@ To create the environment, execute the following line in the conda terminal: <co
 
 To activate the environment, type: <code>conda activate plate_forces</code>
 
+Finally, to open the notebook, type: <code>jupyter notebook</code> and click on the Plate_driving_forces_analysis.ipynb file. 
+
 #### Requirements  
   
 This folder contains the pygplates code required to run the scripts. The folder contains the pre-compiled code for both windows and mac0S, and users of these systems to do need to do anything except make sure that the correct folder is being called in the first cell of Plate_driving_forces_analysis.ipynb.  
