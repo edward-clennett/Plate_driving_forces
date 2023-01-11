@@ -17,15 +17,15 @@ This is a conda environment that includes the following packages, compatible wit
 - cartopy  
 - cmcrameri  
   
-To create the environment, execute the following line in the conda terminal: <code>conda env create -f environment.yml</code>
+To create the environment, execute the following line in the conda terminal: <code>conda env create -f environment.yml</code>.
 
-To activate the environment, type: <code>conda activate plate_forces</code>
+To activate the environment, type <code>conda activate plate_forces</code>.
 
-Finally, to open the notebook, type: <code>jupyter notebook</code> and click on the Plate_driving_forces_analysis.ipynb file. 
+Finally, to open the notebook, type <code>jupyter notebook</code> and click on the Plate_driving_forces_analysis.ipynb file. 
 
 #### Requirements  
   
-This folder contains the pygplates code required to run the scripts. The folder contains the pre-compiled code for both windows and mac0S, and users of these systems to do need to do anything except make sure that the correct folder is being called in the first cell of Plate_driving_forces_analysis.ipynb.  
+This folder contains the pygplates code required to run the scripts. The folder contains the pre-compiled code for both windows and macOS, and users of these systems to do need to do anything except make sure that the correct folder is being called in the first cell of Plate_driving_forces_analysis.ipynb.  
   
 To run this code on a different operating system, see the [pygplates documentation](https://www.gplates.org/docs/pygplates/index.html) for installation instructions.  
   
