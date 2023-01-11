@@ -5,7 +5,7 @@ This folder contains a number of files:
   
 #### Plate_driving_forces_analysis.ipynb  
   
-This is a jupyter notebook with code that loads the appropriate files and run the plate driving forces caluclation, as well as performs analysis tasks. The plate driving forces calculation calls two python scripts, **compute_torques.py** and **functions_main.py**. The following python packages are required to run these scripts:   
+This is a jupyter notebook with code that loads the appropriate files and runs the plate driving forces caluclation, as well as performs analysis and plotting tasks. The plate driving forces calculation calls two python scripts, **compute_torques.py** and **functions_main.py**. The following python packages are required to run these scripts:   
 #### environment.yml
 
 This is a conda environment that includes the following packages, compatible with python 3.8. For more information on anaconda, see the [conda user guide](https://conda.io/projects/conda/en/latest/user-guide/index.html).  
@@ -29,7 +29,7 @@ To run this code on a different operating system, see the [pygplates documentati
   
 #### Plate_model  
   
-This folder contains the Muller et al. (2016) model as an example. The files required to run the plate forces caluclation are:  
+This folder contains the Muller et al. (2016) plate reconstruction model as an example. The files required to run the plate forces caluclation are:  
 1. A rotation file, which describes the movement of the plates (required for forces calculation):  
     - Global_EarthByte_230-0Ma_GK07_AREPS_fixed_crossovers.rot  
 2. A topology file, which describes the geometries and types of plate boundaries (required for forces calculation):  
