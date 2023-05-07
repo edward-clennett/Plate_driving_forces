@@ -1,4 +1,4 @@
-## Code from "Assessing Plate Reconstruction Models Using Plate Driving Forces"
+## Code from "Assessing Plate Reconstruction Models Using Plate Driving Force Consistency Tests"
 ### Edward J. Clennett, Adam F. Holt, Michael G. Tetley, Thorsten W. Becker & Claudio Faccenna
 
 This folder contains a number of files:  
