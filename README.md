@@ -5,36 +5,44 @@ This folder contains a number of files:
   
 #### Plate_driving_forces_analysis.ipynb  
   
-This is a jupyter notebook with code that loads the appropriate files and run the plate driving forces caluclation, as well as performs analysis tasks. The plate driving forces calculation calls two python scripts, **compute_torques.py** and **functions_main.py**. The following python packages are required to run these scripts:  
--- pygplates (can be found in the requirements folder)  
--- numpy  
--- sys  
--- statistics  
--- math  
--- netCDF4  
--- gpxpy  
--- geographiclib  
--- matplotlib  
--- cartopy  
+This is a jupyter notebook with code that loads the appropriate files and runs the plate driving forces caluclation, as well as performs analysis and plotting tasks. The plate driving forces calculation calls two python scripts, **compute_torques.py** and **functions_main.py**. The following python packages are required to run these scripts:   
+#### environment.yml
 
-These packages, as well as python and jupyter notebook, can be installed via [anaconda](https://www.anaconda.com/).  
+This is a conda environment that includes the following packages, compatible with python 3.8. For more information on anaconda, see the [conda user guide](https://conda.io/projects/conda/en/latest/user-guide/index.html).
+- numpy  
+- netCDF4  
+- gpxpy  
+- geographiclib  
+- matplotlib  
+- cartopy  
+- cmcrameri  
+
+To create the environment, execute the following line in the conda terminal: <code>conda env create -f environment.yml</code>.
+
+To activate the environment, type: <code>conda activate plate_forces</code>. 
+
+Finally, to open the notebook, type: <code>jupyter notebook</code> and click on the Plate_driving_forces_analysis.ipynb file. 
+
 
 #### Requirements  
   
-This is the pygplates code required to run the scripts. Other dependencies are listed above. For more information on pygplates, see the [GPlates website](https://www.gplates.org/docs/pygplates/index.html).  
-  
+This folder contains the pygplates code required to run the scripts. The folder contains the pre-compiled code for both windows and macOS, and users of these systems to do need to do anything except make sure that the correct folder is being called in the first cell of Plate_driving_forces_analysis.ipynb.  
+
+
+To run this code on a different operating system, see the [pygplates documentation](https://www.gplates.org/docs/pygplates/index.html) for installation instructions.  
+
 #### Plate_model  
   
-This folder contains the Muller et al. (2016) model as an example. The files required to run the plate forces caluclation are:  
--- A rotation file, which describes the movement of the plates (required for forces calculation):  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Global_EarthByte_230-0Ma_GK07_AREPS_fixed_crossovers.rot  
--- A topology file, which describes the geometries and types of plate boundaries (required for forces calculation):  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Global_EarthByte_230-0Ma_GK07_AREPS_PlateBoundaries.gpml  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Global_EarthByte_230-0Ma_GK07_AREPS_Topology_BuildingBlocks.gpml  
--- A coastlines shapefile (only required for plotting).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Global_EarthByte_230-0Ma_GK07_AREPS_Coastlines.gpml  
--- A continents shapefile (required to generate seafloor agegrids and crustal thickness rasters)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Global_EarthByte_230-0Ma_GK07_AREPS_COB_Terranes.gpml
+This folder contains the model files required to run the plate forces caluclation. An example of the files from the Muller et al. (2016) plate reconstruction model are:  
+1. A rotation file, which describes the movement of the plates (required for forces calculation):  
+    - Global_EarthByte_230-0Ma_GK07_AREPS_fixed_crossovers.rot  
+2. A topology file, which describes the geometries and types of plate boundaries (required for forces calculation):  
+    - Global_EarthByte_230-0Ma_GK07_AREPS_PlateBoundaries.gpml  
+    - Global_EarthByte_230-0Ma_GK07_AREPS_Topology_BuildingBlocks.gpml  
+3. A coastlines shapefile (only required for plotting):  
+    - Global_EarthByte_230-0Ma_GK07_AREPS_Coastlines.gpml  
+4. A continents shapefile (required to generate seafloor agegrids and crustal thickness rasters):  
+    - Global_EarthByte_230-0Ma_GK07_AREPS_COB_Terranes.gpml
   
 #### Seafloor_age_data
   
