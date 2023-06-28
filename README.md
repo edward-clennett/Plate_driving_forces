@@ -54,7 +54,7 @@ This folder contains the crustal thickness rasters which are only required for t
 
 #### References  
   
-Clennett, E. J., Holt, A. F., Tetley, M. G., Becker, T. W., & Faccenna, C. (2023). Assessing plate reconstruction models using plate driving forces.  
+Clennett, E. J., Holt, A. F., Tetley, M. G., Becker, T. W., & Faccenna, C. (2023). Assessing plate reconstruction models using plate driving forces. *Scientific Reports*, 13, 10191. https://doi.org/10.1038/s41598-023-37117-w 
   
 Müller, R. D., Seton, M., Zahirovic, S., Williams, S. E., Matthews, K. J., Wright, N. M., et al. (2016). Ocean Basin Evolution and Global-Scale Plate Reorganization Events Since Pangea Breakup. *Annual Review of Earth and Planetary Sciences*, 44(1), 107–138. https://doi.org/10.1146/annurev-earth-060115-012211  
   
