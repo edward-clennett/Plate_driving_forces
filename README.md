@@ -1,21 +1,20 @@
-## Code from "Assessing Plate Reconstruction Models Using Plate Driving Force Consistency Tests"
-### Edward J. Clennett, Adam F. Holt, Michael G. Tetley, Thorsten W. Becker & Claudio Faccenna
+## Code from "Effects of sediment lubrication on global plate velocities"
+### Thomas L.A. Schouten, Whitney M. Behr, Edward J. Clennett & Thorsten W. Becker
 
 This folder contains a number of files:  
   
-#### Plate_driving_forces_analysis.ipynb  
+#### Sediment_subduction_analysis.ipynb  
   
-This is a jupyter notebook with code that loads the appropriate files and runs the plate driving forces caluclation, as well as performs analysis and plotting tasks. The plate driving forces calculation calls two python scripts, **compute_torques.py** and **functions_main.py**. The following python packages are required to run these scripts:   
+This is a jupyter notebook with code that loads the appropriate files and runs the plate driving forces caluclation, as well as performs analysis and plotting tasks. The plate driving forces calculation calls three python scripts, **platefo.py**, **functions_main.py** and **plotting.py**. The following python packages are required to run these scripts:   
 #### environment.yml
 
 This is a conda environment that includes the following packages, compatible with python 3.8. For more information on anaconda, see the [conda user guide](https://conda.io/projects/conda/en/latest/user-guide/index.html).
 - numpy  
-- netCDF4  
-- gpxpy  
-- geographiclib  
-- matplotlib  
+- xarray   
+- matplotlib (3.5.2)  
 - cartopy  
-- cmcrameri  
+- cmcrameri
+- gplately 
 
 To create the environment, execute the following line in the conda terminal: <code>conda env create -f environment.yml</code>.
 
@@ -27,7 +26,6 @@ Finally, to open the notebook, type: <code>jupyter notebook</code> and click on 
 #### Requirements  
   
 This folder contains the pygplates code required to run the scripts. The folder contains the pre-compiled code for both windows and macOS, and users of these systems to do need to do anything except make sure that the correct folder is being called in the first cell of Plate_driving_forces_analysis.ipynb.  
-
 
 To run this code on a different operating system, see the [pygplates documentation](https://www.gplates.org/docs/pygplates/index.html) for installation instructions.  
 
